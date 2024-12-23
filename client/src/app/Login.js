@@ -7,9 +7,10 @@ const AUTH_URL = "https://accounts.spotify.com/authorize?client_id=c4b183eb179c4
 // function to handle the Spotify login
 export default function Login() {
     // when the user clicks the login button, redirect them to the Spotify login page
-    return (
-        <button onClick={() => window.location.href = AUTH_URL}>
+    return <Container className="d-flex justify-center align-items-center"
+    style = {{minHeight:"100vh"}}> 
+        <a className = "btn btn-success btn-lg" href={AUTH_URL}>   
             Login with Spotify
-        </button>
-    )
+        </a>
+    </Container>
 }
