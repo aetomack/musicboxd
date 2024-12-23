@@ -1,8 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './Login';
 
-function App() {
+export default function Page() {
     return <Login />;
 }
 
-export default App;
