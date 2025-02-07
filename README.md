@@ -1,7 +1,7 @@
 # MusicboxD - Social Music Discovery
 
 ## Progress as of 12/23
-- Got auth working! Login button works; login route and auth hook setup
+- Got auth working, Login button works; login route and auth hook setup
 - need to grab login token
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
