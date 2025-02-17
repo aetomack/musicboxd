@@ -23,7 +23,7 @@ export default function useAuth(code) {
                 window.history.pushState({}, null, "/");
             })
             .catch((err) => {
-                console.error("Authentication failed:", err);
+                console.log("Authentication failed:", err);
                 setError("Authentication failed. Please try again.");
                 window.location = "/";
             })
